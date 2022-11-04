@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+}
+body{
+    margin: 0px;
+    background-image: url(/IMG/Whitebeach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: ;
+}
+a{
+    color: white;
+    
+}
+.container{
+    border: 1px solid black;
+    
+}
+.nav{
+    display: inline-block;
+    width: 100%;
+}
+.try{
+    width: 100%;
+    
+}
+header{
+    font-size: 100px;
+    color: red;
+    text-align: center;
+
+
+}

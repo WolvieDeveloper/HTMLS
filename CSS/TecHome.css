@@ -1,0 +1,169 @@
+
+
+/**/
+body{
+    background-image: url(../IMG/techBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    margin-top:0px;
+    padding: 0px;
+    
+}
+nav{
+    width: 100%;
+    background-color: rgba(81, 81, 81, 0.397);
+}
+embed{
+    position: relative;
+    padding: 5px;
+    width: 3em;
+    left: 1em;
+}
+main{
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+/*CLASS*/
+
+/*.container{
+    border: 1px solid rgb(255, 255, 255); 
+}*/
+.navi {
+    display: inline-flex;
+   padding: 5px;
+}
+.nodd{
+    position: relative;
+    left: 0.5rem;
+    width: 20rem;
+}
+.nodd ul li{
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 5px;
+    padding: 5px;
+}
+.title{
+    width: 50rem;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: 1rem;
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+}
+.title h1{
+    color: rgb(141, 17, 230);
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    
+    
+}
+.title h1:hover{
+    animation-name: heads;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.containerimg{
+    display: inline-block;
+    width: 25%;
+    height: 31%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    font-family:'Pacifico';
+    position: relative;
+    font-size: 3rem;
+   
+    border-radius: 1rem;
+}
+.containerimg a{
+    background-color: rgba(9, 6, 181, 0);
+    border: 1px solid transparent;
+    border-radius: 5rem;
+}
+.img1{
+   top: 5rem;
+    left: 10rem;
+}
+.img2{
+    left: 10rem;
+    top: 10rem;
+}
+.img3{
+    top: 5rem;
+ left: 10rem;
+}
+
+
+
+/*Dropdown*/
+.drophome{
+    position: relative;
+    display: inline-block;
+}
+.dropdowncontent {
+    border: 1px solid black;
+}
+.dropdowncontent{
+    left: 10px;
+    display: none;
+  position: absolute;
+  background-color: rgba(205, 8, 250, 0.795);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(213, 6, 236);
+  padding: 12px 16px;
+  z-index: 1;
+  border:1px solid rgb(255, 9, 218);
+}
+.drophome:hover .dropdowncontent{
+    display: block;
+}
+
+/*a tag*/
+a:hover{text-shadow: 0px 0px 2rem rgb(0, 200, 255);
+box-shadow:0px 0px 2rem rgb(0, 200, 255);
+animation-name: shine;
+animation-duration: 10s;
+animation-iteration-count: infinite;}
+a{text-decoration: none;
+    text-shadow: 0px 0px 1rem rgb(0, 252, 239);}
+a:visited{
+    color: white;
+    box-shadow: 0px 0px 5px rgba(248, 248, 248, 0.397);
+}
+a:active{color:grey;}
+
+
+@keyframes shine{
+   0%{box-shadow: 0px 0px 5rem rgba(21, 167, 251); background-color: rgba(13, 159, 243, 0.308);}
+   25%{box-shadow: 0px 0px 2rem rgba(247, 247, 244); background-color: rgba(13, 159, 243, 0.308);}
+   50%{box-shadow: 0px 0px 5rem rgba(21, 167, 251); background-color: rgba(13, 159, 243, 0.308);}
+   75%{box-shadow: 0px 0px 2rem rgba(252, 252, 252); background-color: rgba(13, 159, 243, 0.308);}
+   100%{box-shadow: 0px 0px 5rem rgba(21, 167, 251); background-color: rgba(13, 159, 243, 0.308);}
+}
+@keyframes heads{
+    100%{transform: rotateX(360deg);}
+   /* 25%{transform: rotateY(360deg)}   
+    50%{transform: rotateX(360deg)}
+    75%{transform: rotateY(360deg)}
+    100%{transform: rotateX(360deg)}*/
+}
+button{
+background-color: black;
+color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
